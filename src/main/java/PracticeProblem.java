@@ -38,10 +38,16 @@ public class PracticeProblem {
 
 	}
 
-	public static String combinedLength(String word, String word2) {
+	public static int combinedLength(String word, String word2) {
 
-		String combinedWord = word + word2;
-		return combinedWord;
+		int intWord = word.length();
+		int intWord2 = word2.length();
+
+
+
+		int combined = intWord + intWord2;
+		return combined;
+		
 	}
 
 }
